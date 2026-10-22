@@ -1,0 +1,39 @@
+杰作收藏室｜周杰倫專輯導覽
+
+開啟方式
+解壓縮整個資料夾，雙擊 index.html 即可使用。
+請保留其他檔案與 assets 資料夾的位置；不需要安裝任何套件。
+網路用於外部字型、YouTube影片，以及YouTube／Spotify聆聽。
+若影片因本機開啟、地區或平台限制不能播放，請按「在 YouTube 觀看」。
+
+檔案說明
+index.html：網站骨架、導覽列、section章節、影片iframe、年表table。
+style.css：.class樣式、置中、顏色、字型與手機版排版。
+album-data.js：16張錄音室專輯、175首曲目的介紹和來源。
+app.js：搜尋、年代篩選、排序、專輯切換、歌曲展開。
+assets/：專輯封面和網站圖示。
+
+如何修改
+1. 改網站名稱／介紹：編輯 index.html。
+2. 改顏色：編輯 style.css 最前面的 :root 變數。
+3. 改歌曲介紹：在 album-data.js 找到歌名，編輯 note。
+4. 補歌曲創作背景：加入 background；來源另放 source。
+5. 請用純文字編輯器，並維持 UTF-8 編碼。
+
+課堂功能對照
+導覽列：nav，透過 #albums、#timeline 等錨點切換章節。
+置中：.container 的 margin-inline:auto 與寬度限制。
+章節：section id="home"、"albums"、"video"、"timeline"、"about"。
+.class：.button、.album-card、.section-heading 等共用樣式。
+影片：YouTube iframe；不自動播放。
+加分：按鈕、table表格、關鍵字搜尋、年代篩選與排序。
+
+收錄範圍與來源
+截至2026年10月的16張錄音室專輯；EP、演唱會和精選輯不在此系列。
+資料以杰威爾官方專輯頁及頁內標示來源為參考。
+網站使用年份；各平台的數位或實體發行日期可能不同。
+歌曲導聆是欣賞角度，不是歌手本人對創作的說法。
+有可靠來源的創作背景另列；其他歌曲提供收錄背景。
+專輯按鈕優先連到平台專輯；歌曲按鈕會開啟平台搜尋。
+范特西的官方頁Spotify連結與首張相同，本站改為明示的搜尋入口。
+封面、歌曲與影片權利歸原權利人；本作品為非官方學習用途。
